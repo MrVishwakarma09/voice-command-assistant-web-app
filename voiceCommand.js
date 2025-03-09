@@ -19,7 +19,7 @@ recognition.onresult = (event) => {
 
     if (transcript === wakeWord) {
         isListening = true;
-        speak("Hello! Mr. Vishwakarma. How can I assist you today?");
+        speak("Hello!. How can I assist you today?");
     } else if (transcript === stopWord) {
         isListening = false;
         speak("Voice recognition deactivated");
