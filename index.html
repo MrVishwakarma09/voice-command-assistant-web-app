@@ -20,6 +20,14 @@
     overflow: hidden;
 }
 
+/* Fix for mobile screens */
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+        background-attachment: scroll; /* Prevents zoom issues */
+    }
+}
+
     h1 {
       font-size: 2.5em;
       margin-bottom: 10px;
